@@ -1,0 +1,324 @@
+body {
+      display: flex;
+      font-family: Arial, sans-serif;
+      background-color: orange;
+	
+    }
+
+main {
+      flex: 1;	
+      padding: 20px;
+      background-color: #FFE5B4;
+}
+
+article {
+
+background-color: #ffdab9;
+
+}
+
+
+h1 {
+  color: black;
+  background-color: #FFB347;
+  text-align: center;
+  font-family: Helvetica, Avant Garde, Futura;
+  font-size: 40px;		
+}
+
+p {
+
+	text-align: justify;
+        font-size: 25px;
+}
+
+.mainimg {
+	   text-align: center;
+                
+                  }
+
+
+/* PT: Formatação do seguimento era de ouro com fontes inspiradas no art-déco e uso das cores de fundo inspiradas no dourado */
+/* EN: Styling for the Golden Age section with Art Deco-inspired fonts and gold-themed background colors */
+
+.goldenage {
+  background-color: #FFFFE0;
+  font-family: 'Century Gothic', 'Atlas Solid', 'Broadway', 'Andes', sans-serif;
+  padding: 20px;
+}
+
+.goldenage h1 {
+  color: black;
+  background-color: #D4AF37;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.goldenage p {
+  color: black;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.ga {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.gImage {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.gImage img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.gList {
+  flex: 2;
+  color: black;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.trivia {
+  flex: 3
+  width: 400px;
+  background-color: #D4AF37;
+  padding: 15px;
+  font-size: 15px;
+  
+.trivia h3 {
+	font-size: 15px;
+}
+}
+		
+
+/* PT: Formatação do seguimento era de prata com fontes inspiradas no mid-century e uso das cores de fundo inspiradas no prateado */
+/* EN: Styling for the Silver Age section with mid-century-inspired fonts and silver-themed background colors */
+
+
+.silverage 
+{
+	
+  font-family:  'Franklin Gothic', 'Carosello', 'Hucklebuck';
+  padding: 10px;
+  background-color:#D3D3D3
+}
+
+
+.silverage h1 {
+  color: black;
+  background-color: #9b9b9b;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+
+.silverage p {
+  color: black;
+  text-align: justify;
+  font-size: 25px;
+ 
+
+  	
+}
+
+.sa {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  background-color:#D3D3D3	
+}
+
+.sImage {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.sImage img {
+  max-width: 65%;
+  text-align: center;	
+  border: 1px solid #ccc;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.sList {
+  flex: 2;
+  color: black;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.trivia2 {
+  flex: 3
+  width: 400px;
+  background-color: #9b9b9b;
+  padding: 15px;
+  font-size: 15px;
+  
+.trivia2 h3 {
+	font-size: 15px;
+}
+}
+		
+/* PT: Formatação do seguimento era de bronze com fontes inspiradas nos anos 70 e uso das cores de fundo inspiradas no bronze e cobre */
+/* EN: Styling for the Bronze Age section with 1970s-inspired fonts and bronze and copper-themed background colors */
+
+.bronzeage 
+{
+	
+  font-family: 'Press Start 2P', 'Bangers', 'Monoton';
+  padding: 10px;
+  background-color:#FFE4D1
+}
+
+
+.bronzeage h1 {
+  color: black;
+  background-color: #CD7F32;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+
+..bronzeage p {
+  color: black;
+  text-align: justify;
+  font-size: 25px;
+ 
+
+  	
+}
+
+.ba {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+	
+}
+
+.bImage {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.bImage img {
+  max-width: 65%;
+  text-align: center;	
+  border: 1px solid #ccc;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.bList {
+  flex: 2;
+  color: black;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.trivia3 {
+  flex: 3
+  width: 400px;
+  background-color: #CD7F32;
+  padding: 15px;
+  font-size: 15px;
+  
+.trivia3 h3 {
+	font-size: 15px;
+}
+}
+	
+
+/* PT: Formatação do seguimento era moderna com cores vibrantes */
+/* EN: Styling for the Modern Age section with vibrant colors */
+
+.modernage 
+{
+	
+  font-family: 'Arial', 'Bangers', 'Monoton';
+  padding: 10px;
+  background-color: #b0f7b0;
+}
+
+
+.modernage h1 {
+  color: black;
+  background-color:#89f336;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+
+.modernage p {
+  color: black;
+  text-align: justify;
+  font-size: 25px;
+ 
+
+  	
+}
+
+.ma {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+	
+}
+
+.mImage {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.mImage img {
+  max-width: 65%;
+  text-align: center;	
+  border: 1px solid #ccc;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.mList {
+  flex: 2;
+  color: black;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.trivia4 {
+  flex: 3
+  width: 400px;
+  background-color: #89f336;
+  padding: 15px;
+  font-size: 15px;
+  
+.trivia4 h3 {
+	font-size: 15px;
+}
+}
